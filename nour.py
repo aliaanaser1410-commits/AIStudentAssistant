@@ -1,3 +1,4 @@
+
 import pandas as pd
 import streamlit as st
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -10,10 +11,10 @@ st.set_page_config(
 
 st.title("🎓 Smart Course Recommender")
 st.write(
-الأوامر الذكية لترشيح الكورسات الأكاديمية والمهنية بناءً على محتوى وصف الكورس.
+    "نظام ترشيح الكورسات الأكاديمية والمهنية بناءً على محتوى وصف الكورس."
 )
 
-# إنشاء قاعدة بيانات الكورسات مباشرة داخل الكود لضمان العمل الفوري
+# إنشاء قاعدة بيانات الكورسات مباشرة داخل الكود
 data = {
     "Course_Name": [
         "Python for Beginners",
